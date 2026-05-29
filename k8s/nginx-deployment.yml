@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: <your-dockerhub-username>/nginx-proxy:latest
+          image: humza1535/nginx-proxy:latest
           ports:
             - containerPort: 80
           volumeMounts:
